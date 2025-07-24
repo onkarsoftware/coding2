@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My TV</title>
+  <style>
+    body {
+      background: #222;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .tv {
+      width: 300px;
+      height: 250px;
+      background: #444;
+      border: 15px solid #888;
+      border-radius: 20px;
+      margin: 0 auto;
+      position: relative;
+      box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    }
+    .screen {
+      width: 260px;
+      height: 200px;
+      background: black;
+      margin: 10px auto;
+      color: limegreen;
+      font-size: 1.2em;
+      padding-top: 80px;
+    }
+    .antenna {
+      width: 80px;
+      height: 0;
+      border-top: 40px solid #888;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      position: absolute;
+      top: -40px;
+      left: 110px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Classic TV Mode</h1>
+  <div class="tv">
+    <div class="antenna"></div>
+    <div class="screen">Hello from your TV! 👀</div>
+  </div>
+  <p>Stay tuned for more digital fun.</p>
+</body>
+</html>
