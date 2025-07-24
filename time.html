@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Value of Time</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #74ebd5, #9face6);
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .clock {
+      width: 120px;
+      height: 120px;
+      margin: 20px auto;
+      border: 5px solid white;
+      border-radius: 50%;
+      position: relative;
+    }
+    .hand {
+      position: absolute;
+      width: 4px;
+      height: 40px;
+      background: white;
+      top: 20px;
+      left: 58px;
+      transform-origin: bottom;
+      animation: spin 10s linear infinite;
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .quote {
+      font-style: italic;
+      font-size: 1.2em;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Value of Time</h1>
+  <div class="clock">
+    <div class="hand"></div>
+  </div>
+  <div class="quote">
+    “Lost time is never found again.” — Onkar Gadekar
+  </div>
+  <p>Use it wisely, cherish the moment, and shape your future. ⏰✨</p>
+</body>
+</html>
